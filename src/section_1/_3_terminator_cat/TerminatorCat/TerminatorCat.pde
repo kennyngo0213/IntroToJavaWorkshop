@@ -6,16 +6,17 @@ int x=0;
 int y=0;
 
 void setup() {
-
+print("I can buy myself flowers");
+  
 // 2. Change "cat.jpg" to match the name of the image you selected
-cat = loadImage("cat.jpg");
+cat = loadImage("cat3.jpg");
 
 // 3. Set the size of the sketch.
-
+size(500,500);
 // 4. Resize the cat so it is the same size as the sketch
-
+cat.size(500,500);
 // 5. DRAW CAT. Use the background() command to make the cat the background.
-//
+//h
 
 
   }
